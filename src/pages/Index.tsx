@@ -5,6 +5,9 @@ import MentorCard from "@/components/MentorCard";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Download } from "lucide-react";
 import { useState } from "react";
+import team1 from "/lovable-uploads/8fc807a8-2a8c-452b-a177-ab890fac4f0a.png";
+import team2 from "/lovable-uploads/e4f8c462-dd93-4a2a-8d47-ebe5cc9e3102.png";
+import team3 from "/lovable-uploads/ef1a0020-20a3-445f-a566-6b95c5b22d2b.png";
 
 const Index = () => {
   const [showModal, setShowModal] = useState(false);
@@ -13,19 +16,19 @@ const Index = () => {
       name: "Sandeep N",
       role: "Entrepreneur, Brand Consultant and Strategic Advisor",
       bio: "Trusted advisor for building impactful brands and sustainable growth",
-      image: "public/lovable-uploads/8fc807a8-2a8c-452b-a177-ab890fac4f0a.png"
+      image: team1
     },
     {
       name: "Koushik",
       role: "Brand Business Strategy, Brand Coach",
       bio: "Expert brand consultant helping businesses achieve their branding goals.",
-      image: "public/lovable-uploads/e4f8c462-dd93-4a2a-8d47-ebe5cc9e3102.png"
+      image: team2
     },
     {
       name: "Bhagyashree",
       role: "Brand Strategy & Personal Branding Architect",
       bio: "Specialized in personal branding and strategic brand development.",
-      image: "public/lovable-uploads/ef1a0020-20a3-445f-a566-6b95c5b22d2b.png"
+      image: team3
     }
   ];
 

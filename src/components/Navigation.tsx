@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { useState, useEffect } from "react";
+import BRAND_LAB_LOGO_SRCs from "/lovable-uploads/5b0f9a28-4bc4-416a-827b-d05ca25060d2.png";
 
 // Main School brand logo
 const SCHOOL_LOGO_SRC = "/lovable-uploads/0f3e43df-33f5-49bf-a0e3-d4bb75a5103d.png";
@@ -27,7 +28,7 @@ const Navigation = () => {
             {/* The Brand Lab Icon: slightly larger & zoomed for clarity */}
             <div className="w-12 h-12 flex items-center justify-center bg-white rounded-full overflow-hidden border border-gray-200 shadow-sm">
               <img
-                src={BRAND_LAB_LOGO_SRC}
+                src={BRAND_LAB_LOGO_SRCs}
                 alt="The Brand Lab Logo"
                 className="object-contain"
                 style={{ width: "44px", height: "44px", transform: "scale(1.28)", margin: "0" }}

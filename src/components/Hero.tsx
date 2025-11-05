@@ -6,6 +6,9 @@ import {
 } from "@/components/ui/dialog";
 
 import latestvideo from "/lovable-uploads/compressed-video.mp4";
+import heroimage from "/lovable-uploads/35865678-e03d-4c72-8562-4ab9f5f82d68.png";
+
+
 
 const Hero = () => {
   return (
@@ -19,7 +22,7 @@ const Hero = () => {
           muted
           // controls
           playsInline
-          className="w-full h-[600px] aspect-video object-cover"
+          className="w-full h-[650px] aspect-video object-cover"
         />
       </div>
       <div className="relative w-full overflow-hidden px-4 my-auto">
@@ -58,7 +61,7 @@ const Hero = () => {
           <div className="md:w-1/2 w-full mt-6 md:mt-0">
             <div className="overflow-hidden shadow-xl">
               <img 
-                src="public/lovable-uploads/35865678-e03d-4c72-8562-4ab9f5f82d68.png"
+                src={heroimage}
                 alt="Brand Strategy Analysis"
                 className="w-full h-auto"
               />
