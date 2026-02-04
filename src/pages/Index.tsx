@@ -2,6 +2,7 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import MentorCard from "@/components/MentorCard";
+ import TestimonialCard from "@/components/TestimonialsSection";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Download } from "lucide-react";
 import { useState } from "react";
@@ -87,6 +88,16 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <section id="testimonials" className="py-20 bg-purple-50">
+  <h2 className="text-4xl font-bold text-center mb-12">
+    Testimonials
+  </h2>
+
+  {/* FULL-WIDTH black section lives OUTSIDE container */}
+  <TestimonialCard />
+</section>
+
 
       <section id="contact" className="py-20 bg-purple-50">
         <div className="container mx-auto px-4">
